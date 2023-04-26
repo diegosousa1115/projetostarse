@@ -1,0 +1,59 @@
+ESTILOS.CSS
+url @import('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+* {
+    margem:0;
+    preenchimento: 0;
+    box-sizing: border-box;
+    contorno: 0;
+    estilo de lista: nenhum;
+}
+
+html, 
+corpo{
+    família de fontes: 'Raleway', sans-serif;
+    tamanho da fonte: 14px;
+    renderização de texto: optimizeLegibility;
+    -webkit-font-smoothing: antializado; 
+}
+
+um {
+    texto-decoração: nenhuma;
+}
+
+cabeçalho {
+    cor de fundo: preto;
+}
+
+cabeçalho . recipiente {
+    display: flex;
+    alinhar-itens: centro;
+    justificar-conteúdo: espaço-entre;
+    preenchimento: 20px;
+    altura: 80px;
+    margem: auto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    cor: branco;
+    texto-transformação: maiúsculas;
+    tamanho da fonte: 1.2rem;
+    preenchimento: 1.8rem;
+    transição: todos os 250ms lineares 0s;
+}
+
+header nav ul li a:passar o mouse{
+    antecedentes: rgba(255,255,255, 0.15)
+}
+
+cabeçalho img {
+    altura: 30px;
+}
+
+#caixa de seleção-menu {
+    exibição: nenhuma;
+}
